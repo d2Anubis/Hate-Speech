@@ -1,10 +1,6 @@
 # HATE SPEECH ON BILLBOARD HOT 100 SONGS
 
-It has been scientifically proven that music has very powerful on brain. Over the years the music industry has gone through a massive change in it’s lyrics writing. According to an article on medium by performing sentiment analysis on Billboard Hot 100 songs it was found on average music lyrics gets 1.3% negative every year. Also we find many toxic songs makes it upto the most streaming songs. In this project, we try to see the trends of hate speech over the years using the BERT model. The OLID dataset is used to fine-tune the model and then transfer learning has been performed by testing it on songs. Since the testing dataset contains songs in different languages, zero-shot learning has been experimented. 
+In today’s era the music industry has experienced massive growth and has gone through major changes in its composition. As the use of bad languages alter our behaviour in a negative way, it is very essential to keep people away from music that promotes hate. The lower age groups are the target of such songs and are mostly influenced by the use of hate and discriminative language in songs. Therefore we need to detect and highlight such songs and create awareness.
 
-
-After training the song on OLID dataset the model performs well on the validation dataset by resulting in an accuracy score of 0.76. However the zero-shot learning does not go well after testing it on the ToLD-Br dataset for portuguese. The model shows a macro avg f1-score of 0.59. However for the similar datasets according to paper on toxic language detection the model gives a macro avg f1-score of 0.56 which is quite comparable results from ours. 
-
-
-On analyzing the trends of hate speech on hit songs it has been found that over the years there has been a massive increase in use of hate speech in songs. On looking at the most frequently occurring words we can easily conclude that the model was able to identify the songs with bad lyrics.
-
+Through this project it has been tried to detect hate speech using the BERT Multilingual model. The model has been fine tuned on the OLID dataset and then the transfer learning has been performed. Since the testing dataset consists of different languages, zero shot learning has also been experimented.
+The model was able to achieve a 76% macro-F1 score and therefore the analysis made can be called effective. Also upon examining the most frequent words one could easily conclude our analysis produced desired results.
